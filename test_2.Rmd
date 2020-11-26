@@ -1,0 +1,21 @@
+---
+title: "test_2"
+output:
+  github_document:
+    toc: true
+    toc_depth: 2
+editor_options: 
+  chunk_output_type: console
+---
+
+# titre1
+## sous titre A
+```{r}
+library(knitr)
+library(markdown)
+```
+
+## sous titre B
+```{r}
+plot(cars)
+```
